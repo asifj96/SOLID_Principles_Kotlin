@@ -1,0 +1,9 @@
+# SOLID Principles in Software Design
+
+| Principle | Description | Details |
+|-----------|-------------|---------|
+| **Single Responsibility Principle (SRP)** | A module/class/function should have one and only one reason to change. | - |
+| **Open/Closed Principle (OCP)** | Classes, modules, functions, should be open for extension, but closed for modification. | **Open:**<br>- We can add new features to our classes.<br>- When new requirements come, we should be able to add new features to our class easily.<br>**Closed:**<br>- The base features of the class should not be changed. |
+| **Liskov Substitution Principle (LSP)** | If S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that program. | Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program. |
+| **Interface Segregation Principle (ISP)** | Clients should not be forced to depend on methods that they do not use. | - A class should perform only actions that are needed to fulfill its role.<br>- Any other action should be removed completely or moved somewhere else if it might be used by another class in the future.<br>- This principle advocates for splitting a set of actions into smaller sets so that a class executes **only** the set of actions it requires. |
+| **Dependency Inversion Principle (DIP)** | - High-level modules should not depend on low-level modules. Both should depend on the abstraction.<br>- Abstractions should not depend on details. Details should depend on abstractions. | **Summary:**<br>- **High-level modules**: Depend on abstractions.<br>- **Low-level modules**: Depend on abstractions, not details. |
